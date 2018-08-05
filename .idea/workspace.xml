@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="437862ab-04b3-414c-bc67-4b7cca301bcf" name="Default" comment="" />
+    <list default="true" id="437862ab-04b3-414c-bc67-4b7cca301bcf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,11 +21,8 @@
       <file leaf-file-name="galleryTemplate.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/gallery/galleryTemplate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="459">
               <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
-              <folding>
-                <element signature="n#div#1;n#!!top" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -64,7 +65,7 @@
       <file leaf-file-name="mainController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
+            <state relative-caret-position="425">
               <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
             </state>
           </provider>
@@ -82,7 +83,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="1054">
               <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
             </state>
           </provider>
@@ -96,7 +97,18 @@
       <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2448" />
+            <state relative-caret-position="107">
+              <caret line="401" column="56" selection-start-line="401" selection-start-column="50" selection-end-line="401" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="16" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -135,6 +147,9 @@
       <find>bree</find>
       <find>pointer</find>
       <find>route</find>
+      <find>loda</find>
+      <find>da</find>
+      <find>lodash</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,7 +168,6 @@
         <option value="$PROJECT_DIR$/components/user-list/user-listController.js" />
         <option value="$PROJECT_DIR$/components/user-photos/user-photosTemplate.html" />
         <option value="$PROJECT_DIR$/webServer.js" />
-        <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/components/slide-show/slide-showContorller.js" />
         <option value="$PROJECT_DIR$/components/slide-show/slide-showController.js" />
@@ -173,6 +187,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/mainController.js" />
         <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
       </list>
     </option>
   </component>
@@ -218,7 +233,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/mainController.js&#10;studio&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/studio/studioTemplate.html&#10;gallery&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/gallery/gallery.css&#10;home&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/home/homeController.js&#10;phot&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-photos/user-photosTemplate.html&#10;list&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-list/user-listController.js&#10;deta&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailController.js&#10;detail&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailTemplate.html&#10;userd&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailController.js&#10;photo&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-photos/user-photosController.js&#10;userlis&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-list/user-listController.js" />
+    <property name="SearchEverywhereHistoryKey" value="idea&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/.idea&#10;main&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/mainController.js&#10;studio&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/studio/studioTemplate.html&#10;gallery&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/gallery/gallery.css&#10;home&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/home/homeController.js&#10;phot&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-photos/user-photosTemplate.html&#10;list&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-list/user-listController.js&#10;deta&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailController.js&#10;detail&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailTemplate.html&#10;userd&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailController.js&#10;photo&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-photos/user-photosController.js&#10;userlis&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-list/user-listController.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../project6" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -272,11 +287,12 @@
       <workItem from="1531639841971" duration="6586000" />
       <workItem from="1532738023716" duration="19937000" />
       <workItem from="1532801949165" duration="5146000" />
+      <workItem from="1533446813467" duration="1752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156891000" />
+    <option name="totallyTimeSpent" value="158643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,16 +305,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2472178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2472178" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32920355" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.28672567" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32920355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49920508" visible="true" weight="0.28672567" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49920508" visible="true" weight="0.28672567" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -307,6 +323,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,9 +338,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/rlstudio4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/footer/footerTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -459,9 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="5" column="93" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="93" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#button#2;n#span#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -474,11 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/gallery/galleryTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="459">
           <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
-          <folding>
-            <element signature="n#div#1;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -506,14 +514,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="425">
           <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="1054">
           <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
         </state>
       </provider>
@@ -521,9 +529,18 @@
     <entry file="file://$PROJECT_DIR$/webServer.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2448" />
+        <state relative-caret-position="107">
+          <caret line="401" column="56" selection-start-line="401" selection-start-column="50" selection-end-line="401" selection-end-column="56" />
+        </state>
       </provider>
     </entry>
   </component>
