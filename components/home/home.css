@@ -1,0 +1,87 @@
+.container {
+    width: 100%; /*any size*/
+    height: 90%; /*any size*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /*margin: 5px 0 5px 0;*/
+}
+
+.background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*magic*/
+    object-position: 0 48%;
+    transition: .5s ease;
+}
+.background-img:hover {
+    opacity: 0.4;
+}
+
+#slide-photos {
+    height: 15%;
+    /*background-color: black;*/
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.button-holder {
+    position: absolute;
+    top: 50%;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    height: 4.2vw;
+}
+
+.scroll-button {
+    width:15%;
+    border: 2px solid black;
+    background-color: white;
+    font-family: "Courier", sans-serif;
+    font-size: 1.25vw;
+}
+/*About*/
+#about-container {
+    height: 90%;
+    overflow: auto;
+}
+.features {
+    font-family: 'PT Serif', serif;
+    text-decoration: underline;
+}
+.feature-col {
+    float: left;
+    width: 32%;
+}
+
+.feature-row {
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+}
+
+.feature-image {
+    width: 100%;
+    border-bottom: 10px solid maroon;
+}
+
+.feature-title {
+    text-align: center;
+    font-family: 'Garamond', serif;
+    font-size: 2vw;
+    margin: 0 0 1vw 0;
+}
+
+.feature-description {
+    font-family: 'Garamond', serif;
+    font-size: 1.4vw;
+    margin: 0;
+}
+
+/*Calendar*/
+#calendar {
+    width: 90%;
+    margin: auto;
+}

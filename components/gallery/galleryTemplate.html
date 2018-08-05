@@ -1,0 +1,48 @@
+<div id="gallery-page" ng-show="gallery.grid === false">
+    <div id="gallery-container">
+        <img ng-click="gallery.toggleGrid()" class="gallery-icon" src="../../images/grid-icon.png"/>
+        <button class="gallery-main-button" ng-click="gallery.back()">
+            <
+        </button>
+        <div id="gallery-main-container">
+            <img class="gallery-main" src="../../images/gallery/rls{{gallery.curr}}.jpg"/>
+        </div>
+        <button class="gallery-main-button" ng-click="gallery.forward()">
+            >
+        </button>
+    </div>
+    <div class="gallery-wrapper" ng-show="gallery.grid === false">
+        <img ng-click="gallery.hide()" id="gallery-hide" src="../../images/{{gallery.direction}}-icon.png"/>
+        <span style="color: white">Gallery</span>
+        <div class="gallery-thumbnail-container">
+            <button class="gallery-thumbnail-button" ng-click="gallery.thumbBack()"><</button>
+            <img ng-click="gallery.switch(gallery.left)" class="gallery-thumbnail" src="../../images/gallery/rls{{gallery.left}}.jpg"/>
+            <img ng-click="gallery.switch(gallery.left + 1)" class="gallery-thumbnail" src="../../images/gallery/rls{{gallery.left + 1}}.jpg"/>
+            <img ng-click="gallery.switch(gallery.left + 2)" class="gallery-thumbnail" src="../../images/gallery/rls{{gallery.left + 2}}.jpg"/>
+            <img ng-click="gallery.switch(gallery.left + 3)" class="gallery-thumbnail" src="../../images/gallery/rls{{gallery.left + 3}}.jpg"/>
+            <img ng-click="gallery.switch(gallery.left + 4)" class="gallery-thumbnail" src="../../images/gallery/rls{{gallery.left + 4}}.jpg"/>
+            <button class="gallery-thumbnail-button" ng-click="gallery.thumbForward()">></button>
+        </div>
+    </div>
+</div>
+<div id="gallery-grid" style="position: relative" ng-show="gallery.grid">
+    <h2 id="gallery-grid-header">Gallery Grid View</h2>
+    <img title="Gallery" ng-click="gallery.toggleGrid()" class="gallery-icon" ng-src="../../images/slide-icon.png"/>
+    <div class="gallery-row">
+        <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [1,2,3,4,5,6,7,8,9]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+    </div>
+    <div class="gallery-row">
+        <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [10,11,12,13,14,15,16,17,18]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+    </div>
+    <div class="gallery-row">
+        <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [19,20,21,22,23,24,25,26,27]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+    </div>
+    <div class="gallery-row">
+        <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [28,29,30,31,32,33,34,35,36]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+    </div>
+    <div class="gallery-row">
+        <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [37,38,39,40,41,42,43,44,45]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+    </div>
+</div>
+
+<div ng-include="'components/footer/footerTemplate.html'" ng-controller="MainController"></div>

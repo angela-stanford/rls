@@ -1,0 +1,86 @@
+<!doctype html>
+<html ng-app="cs142App" ng-controller="MainController">
+    <head>
+
+        <title>Royal Lane</title>
+
+        <link href="./node_modules/angular-material/angular-material.css" rel="stylesheet" />
+
+        <script src="./node_modules/angular/angular.js" type="text/javascript" ></script>
+        <script src="./node_modules/angular-animate/angular-animate.js" type="text/javascript" ></script>
+        <script src="./node_modules/angular-aria/angular-aria.js" type="text/javascript" ></script>
+        <script src="./node_modules/angular-material/angular-material.js" type="text/javascript" ></script>
+
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+
+        <script src="node_modules/angular-route/angular-route.js"></script>
+
+        <script src="mainController.js"></script>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+
+        <script src="components/home/homeController.js"></script>
+        <link rel="stylesheet" type="text/css" href="components/home/home.css" />
+
+        <script src="components/gallery/galleryController.js"></script>
+        <link rel="stylesheet" type="text/css" href="components/gallery/gallery.css" />
+
+        <link rel="stylesheet" type="text/css" href="components/studio/studio.css">
+
+        <link rel="stylesheet" type="text/css" href="components/footer/footer.css"/>
+        <link rel='stylesheet' href='node_modules/fullcalendar/dist/fullcalendar.css' />
+
+        <script src='node_modules/jquery/dist/jquery.js'></script>
+        <!--faster-->
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+        <script src='node_modules/moment/moment.js'></script>
+        <script src='node_modules/fullcalendar/dist/fullcalendar.js'></script>
+        <script src="node_modules/fullcalendar/dist/gcal.js"></script>
+        <!--<script type='text/javascript'>-->
+            <!--$(function () {-->
+                <!--$("#scroll-studio").on('click', function() {-->
+                    <!--var position = $('#about-container').offset().top - $(window).height() * 0.1;-->
+                    <!--$("html, body").animate({ scrollTop: position }, 1000);-->
+                <!--});-->
+                <!--$("#scroll-calendar").on('click', function() {-->
+                    <!--var position = $('#calendar').offset().top - $(window).height() * 0.1;-->
+                    <!--$("html, body").animate({ scrollTop: position }, 1000);-->
+                <!--});-->
+            <!--})-->
+
+
+            <!--function get_calendar_height() {-->
+                <!--return $(window).height() * .9;-->
+            <!--}-->
+
+            <!--$(document).ready(function() {-->
+                <!--$(window).resize(function() {-->
+                    <!--$('#calendar').fullCalendar('option', 'height', get_calendar_height());-->
+                <!--});-->
+
+
+                <!--//set fullcalendar height property-->
+                <!--$('#calendar').fullCalendar({-->
+                    <!--//options-->
+                    <!--height: get_calendar_height-->
+                <!--});-->
+            <!--});-->
+        <!--</script>-->
+
+    </head>
+
+    <body>
+    <div id="main-toolbar" layout="row">
+        <div class="nav-links">
+            <a ng-href="#!/home" class="nav-link">Home</a>
+            <a ng-href="#!/photography-studio" class="nav-link">Photography Studio</a>
+            <a ng-href="#!/gallery" class="nav-link">Gallery</a>
+            <a class="nav-link">Contact Us</a>
+            <a ng-href="#!/photography-studio?showBuy=true" id="booking-link">Book Studio Session</a>
+            <a ng-href="#!/home" id="royal-lane">Royal Lane</a>
+        </div>
+    </div>
+    <div ng-view style="height: 100%"></div>
+    </body>
+</html>

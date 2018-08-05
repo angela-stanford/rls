@@ -1,0 +1,31 @@
+<div class="container">
+    <img class="background-img" ng-src="images/rlstudio2.jpg"/>
+    <span class="button-holder">
+            <button class="scroll-button" id="scroll-studio" ng-click="home.jump('about-container')">About the Studio</button>
+            <button class="scroll-button" id="scroll-calendar" ng-click="home.jump('calendar')">View Our Calendar</button>
+        <button class="scroll-button"><a style="width: 100%; text-align: center; color: black" ng-href="#!/gallery">View Our Gallery</a></button>
+        </span>
+</div>
+<div id="about-container">
+    <h1 class="features">Features</h1>
+    <div class="feature-row">
+        <div class="feature-col">
+            <img class="feature-image" src="images/rlstudio.jpg"/>
+            <p class="feature-title">2,000 Square Feet White & Black Rooms</p>
+            <p class="feature-description">The main photography rooms are 1,000 square feet each, with optional color backdrops.</p>
+        </div>
+        <div class="feature-col">
+            <img class="feature-image" src="images/rlstudio4.jpg"/>
+            <p class="feature-title">Event Space</p>
+            <p class="feature-description">Royal Lane is able to accommodate a sit-down reception of over 120 people with room for dancing, or up to a 250-person standing-room ceremony or cocktail party.</p>
+        </div>
+        <div class="feature-col">
+            <img class="feature-image" src="images/rlstudio3.jpg"/>
+            <p class="feature-title">Large Makeup & Dressing Room</p>
+            <p class="feature-description">The Vanity Room is the perfect space for hair, makeup, and wardrobe.</p>
+        </div>
+    </div>
+</div>
+<h2 class="features">Studio Calendar</h2>
+<div id="calendar"></div>
+<div ng-include="'components/footer/footerTemplate.html'" ng-controller="MainController"></div>

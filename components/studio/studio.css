@@ -1,0 +1,92 @@
+.studio-button {
+    display: block;
+    margin: 5px auto 0 auto;
+    border: none;
+    font-family: 'Bree Serif', serif;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
+    font-size: 2vw;
+}
+
+#studio-booking {
+    margin: 0 0 0 10px;
+}
+
+#studio-rate-info {
+    background-color: gainsboro;
+    width: 28%;
+    margin: auto;
+    border: 3px solid #282828;
+    box-shadow: 4px 4px 3px 0 rgba(0,0,0,.12);
+    font-family: 'Bree Serif', serif;
+}
+
+.studio-rates {
+    text-align: center;
+}
+
+.studio-special {
+    color: maroon;
+}
+
+#studio-session {
+    font-family: 'Bree Serif', serif;
+}
+
+#studio-note {
+    text-align: center;
+    font-family: Garamond, serif;
+}
+
+.studio-button:hover {
+    color: maroon;
+}
+
+.studio-button:active {
+    transform: translateY(1px);
+}
+
+.studio-header {
+    margin: 5px 0;
+    font-family: 'PT Serif', serif;
+}
+
+.studio-column {
+    width: 30%;
+    background-color: #282828;
+    margin: 0 4% 4% 4%;
+    z-index: 1;
+    box-shadow: 4px 4px 3px 0 rgba(0,0,0,.12);
+}
+
+/*.studio-column:hover {*/
+    /*position: relative;*/
+    /*width: 50%;*/
+    /*height: 100%;*/
+/*}*/
+
+.studio-pic {
+    width: 100%;
+}
+
+.studio-dots {
+    margin: 0;
+    color: silver;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.studio-info {
+    font-family: Garamond, serif;
+    font-size: 1.5vw;
+    padding: 2%;
+    color: silver;
+    text-align: center;
+}
+
+#studio-banner {
+    position: absolute;
+    top: 50%;
+    height: 5%;
+    width: 100%;
+    background-color: maroon;
+}

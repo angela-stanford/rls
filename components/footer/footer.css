@@ -1,0 +1,53 @@
+#footer {
+    border-style: solid;
+    border-width: 2px 0;
+    background-color: #282828;
+    position: relative;
+}
+
+#footer-co {
+    position: absolute;
+    background-color: #282828;
+    /*width: 100%;*/
+    color: silver;
+    right: 5px;
+    font-size: 1.8vw;
+}
+
+.footer-column {
+    width: 20%;
+}
+
+.footer-title {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 0;
+    font-size: 2.5vw;
+    text-decoration: underline;
+    color: silver;
+}
+
+.footer-link {
+    display: block;
+    padding: 0.5vw;
+    font-family: 'Courier', sans-serif;
+    font-weight: bold;
+    color: ghostwhite;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+#footer-copy {
+    position: absolute;
+    background-color: #282828;
+    width: 100%;
+    color: silver;
+    font-size: 1.0vw;
+}
+
+#footer-contact {
+    display: block;
+    padding: 0;
+}

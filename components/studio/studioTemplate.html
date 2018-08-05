@@ -1,0 +1,89 @@
+<button class="studio-button" ng-click="main.buy()" ng-show="!main.showBuy">Book Studio Session</button>
+<button class="studio-button" ng-click="main.buy()" ng-show="main.showBuy">Close Booking</button>
+<div id="studio-booking" ng-show="main.showBuy">
+    <h2 class="studio-header">Rates</h2>
+    <div id="studio-rate-info">
+    <p class="studio-rates">Standard Session | <span class="studio-special">$40 an hour</span></p>
+        <p class="studio-rates">Private Session | <span class="studio-special">$60 an hour</span></p>
+        <p class="studio-rates">Master Studio | <span class="studio-special">Full Day (10hrs) $300</span></p>
+    <p class="studio-rates">Master Studio | <span class="studio-special">Half Day (5hrs) $150</span></p>
+    </div>
+    <h3 id="studio-session">Book a session</h3>
+    <p id="studio-note">Put in the notes what day and time you are booking.</p>
+    <div>
+        <div id="212257150176688172" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <table>
+            <tbody><tr><td style="text-align: center"><input type="hidden" name="on0" value="Select Hours">Select Hours</td></tr><tr><td><select name="os0">
+                <option value="1 Hour">1 Hour $40.00 USD</option>
+                <option value="2 Hours">2 Hours $80.00 USD</option>
+                <option value="3 Hours">3 Hours $105.00 USD</option>
+                <option value="4 Hours">4 Hours $140.00 USD</option>
+                <option value="Half Day">Half Day $150.00 USD</option>
+                <option value="Full Day">Full Day $300.00 USD</option>
+            </select> </td></tr>
+            </tbody></table>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIIsQYJKoZIhvcNAQcEoIIIojCCCJ4CAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYALWuyc282BzomxoOwajbz/Ba6vY2s9KmQKwKy9Cr/Qpn3I9ILCtiYaLAYl8oVdlA773cf+jO93Gb/p6BtvUCLJ5zrCqmFsxcs19+GjxglHwfR5swkaxfBdRzUHoSq5VS8Dit4ShcRE6Azzv+AbV9TmUyszq8kfybsYmVmPu2NibzELMAkGBSsOAwIaBQAwggItBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECPqQeB0GJhx/gIICCF9fIk91zUCUMItDjebYX8/3aw0b8EGM5R5NWupMMVx8p0OQYGsP6960rriYV/ZDdEfSeUr/dWpNe1YUljp5b0G/GSgdRSjVO1AsN92dF2crhCRWApiiExg1HjUQFujZarkl2h1jFKfXdjRd9VlmOiqxsIIXMkw0/2ipE5J6c1tCfV+e5qi0Gq263tI1+tvSRPBYznXBddPfkR0GsgwLHe2z+JuI2FgJ9ga+pCD8+fqn/KB6XOQhZIpvv7oRQWWueVQDoAtcyc4I5Vkv145UDK+hZTyPB1KOu/Xt0OckBd2BBTdsTv3qpMQ/uT+URepa9YOxqBRNCnbGNPXE3FclXllmtryQA/qktfIkSto1UfZ+pOQrjFsh6JHD7fZOXxRWWthmoJn5CT6oFJFEmc48C97A5YpfjTrXZLAdNwAtnsAgpolqKOfWE7sXmuHKGVbsyxQwMvpMCi/AQUPowLEKeiLDf5BSUKnD6MG1lAIK3By6zjlBTJF9K4dBv9MnKScyXoyc/eEo68SKBG4W8DT3LPQ2fw0wkFbu4rMG0oTXVj+16y8dorpv0xaqfrY8+afwgeMNtjJFN+GwpVMokUuFhKfWIPF5nNKs/KEIxhVb19ouX+szF/XeqWxmygC29M8gtBoz4V9qdjtqKatWsjPOygi0WU39XYQRxVxLEo6/nahETuF+suSCLDWgggOHMIIDgzCCAuygAwIBAgIBADANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wHhcNMDQwMjEzMTAxMzE1WhcNMzUwMjEzMTAxMzE1WjCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFHTt38RMxLXJyO2SmS+Ndl72T7oKJ4u4uw+6awntALWh03PewmIJuzbALScsTS4sZoS1fKciBGoh11gIfHzylvkdNe/hJl66/RGqrj5rFb08sAABNTzDTiqqNpJeBsYs/c2aiGozptX2RlnBktH+SUNpAajW724Nv2Wvhif6sFAgMBAAGjge4wgeswHQYDVR0OBBYEFJaffLvGbxe9WT9S1wob7BDWZJRrMIG7BgNVHSMEgbMwgbCAFJaffLvGbxe9WT9S1wob7BDWZJRroYGUpIGRMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbYIBADAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAIFfOlaagFrl71+jq6OKidbWFSE+Q4FqROvdgIONth+8kSK//Y/4ihuE4Ymvzn5ceE3S/iBSQQMjyvb+s2TWbQYDwcp129OPIbD9epdr4tJOUNiSojw7BHwYRiPh58S1xGlFgHFXwrEBb3dgNbMUa+u4qectsMAXpVHnD9wIyfmHMYIBmjCCAZYCAQEwgZQwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tAgEAMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0xNzA3MDcwMjQwMjZaMCMGCSqGSIb3DQEJBDEWBBQLFplFdhDHndOygfz+EHQOcvPHGjANBgkqhkiG9w0BAQEFAASBgFKBOtdmirwdQ1p3T8tLjkWDztv8/uHvt2r/W2BYGoNYuZXOghcEY2MB4kAMDGGN7DbgjA08MCaGG/CjKrBDMnqmLGcPZrffcJ5UxZzPXbsdbaFZ2sydvwysNqDv/jAYTkjehtY9GzSq05sHNth/anj9pmyajZDDlf3Hcp70v+qx-----END PKCS7-----
+">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    </div>
+
+
+
+    </div>
+</div>
+<h2 class="studio-header">Photography Studio</h2>
+<div layout="row" style="height: 80%">
+    <div class="studio-column" layout="column">
+        <img class="studio-pic" src="../../images/rlstudio.jpg"/>
+        <p class="studio-dots">...</p>
+        <p class="studio-info">Royal Lane has a large creative shoot space perfect for all production rental needs.
+
+             <br> Large skylight gives this space a “daylight” option.</p>
+    </div>
+    <div class="studio-column" layout="column">
+        <img class="studio-pic" ng-src="../../images/rlstudio2.jpg"/>
+        <p class="studio-dots">...</p>
+        <p class="studio-info">
+            The studio is complete with built-in White Cyclorama & Black Cyclorama rooms, as well as hair and make up furnishings, racks, tables and chairs.
+        </p>
+    </div>
+    <div class="studio-column" layout="column">
+        <img class="studio-pic" ng-src="../../images/rlstudio3.jpg"/>
+        <p class="studio-dots">...</p>
+        <p class="studio-info">
+            Royal Lane studios has been used for Castings, Product Shoots, Beauty Shoots, Video Shoots, Holding areas and more!
+        </p>
+    </div>
+    <!--<div id="studio-banner" ng-show="!main.showBuy"></div>-->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--<button class="studio-toggle"></button>-->
+        <!--<button class="studio-toggle"></button>-->
+        <!--<button class="studio-toggle"></button>-->
+    <!--</div>-->
+        <!--<div class="studio-info">-->
+            <!--<img class="studio-photo" ng-src="../../images/rlstudio.jpg"/>-->
+            <!--<p class="studio-paragraph">Royal Lane has a large creative shoot space perfect for all production rental needs.<br><br>-->
+                <!--Large Skylight gives this space a “daylight” option.-->
+            <!--</p>-->
+        <!--</div>-->
+<!--</div>-->
+<!--<div id="studio-maroon"> </div>-->
+
+<div ng-include="'components/footer/footerTemplate.html'" ng-controller="MainController"></div>

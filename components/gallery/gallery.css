@@ -1,0 +1,112 @@
+#gallery-page {
+    height: 90%;
+    position: relative;
+}
+
+#gallery-container {
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery-icon {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    cursor: pointer;
+}
+
+#gallery-hide {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.gallery-main-button {
+    border: none;
+    width: 5%;
+    height: 15%;
+    border-radius: 10%;
+    background-color: #282828;
+    color: silver;
+    font-size: 3.5vw;
+}
+
+#gallery-main-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 70%;
+}
+
+.gallery-main {
+    height: 100%;
+}
+
+.gallery-wrapper {
+    height: 15%;
+    opacity: 0.5;
+    transition: 0.3s;
+    position: relative;
+    bottom: 15%;
+    vertical-align: super;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5vw;
+}
+
+.gallery-wrapper:hover {
+    height: 25%;
+    bottom: 25%;
+    opacity: 1.0;
+}
+
+.gallery-wrapper-post, .gallery-wrapper-post:hover {
+    height: 5%;
+    bottom: 8%;
+}
+
+.gallery-thumbnail-container {
+    display: flex;
+    justify-content: center;
+    background-color: #282828;
+    height: 80%;
+}
+
+.gallery-thumbnail-button {
+    height: 100%;
+    width: 7%;
+    background-color: #282828;
+    color: silver;
+    font-size: 3.5vw;
+    border: none;
+}
+
+.gallery-thumbnail {
+    width: 18%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 -25px;
+    cursor: pointer;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery-cell {
+    width: 10%;
+    height: 100%;
+    margin: 0.6%;
+    cursor: pointer;
+}
+
+#gallery-grid-header {
+    font-family: 'PT Serif', serif;
+    font-size: 2vw;
+    margin: 5px 0;
+}
