@@ -21,7 +21,7 @@ CSS for the CS142 project #5 main page
     bottom: 0;
     /*font-family: 'PT Serif', serif;*/
     font-family: 'Bree Serif', serif;
-    font-size: 2vw;
+    font-size: 1.6vw;
     width: 100%;
 }
 
@@ -63,7 +63,7 @@ a {
     bottom: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     text-align: center;
 }
 

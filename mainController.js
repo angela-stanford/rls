@@ -14,8 +14,12 @@ cs142App.config(['$routeProvider',
                 controller: 'GalleryController'
             }).
             when('/photography-studio', {
-            templateUrl: 'components/studio/studioTemplate.html',
-            controller: 'MainController'
+                templateUrl: 'components/studio/studioTemplate.html',
+                controller: 'MainController'
+            }).
+            when('/contact-us', {
+                templateUrl: 'components/contact/contactTemplate.html',
+                controller: 'MainController'
             }).
             otherwise({
                 redirectTo: '/home'
