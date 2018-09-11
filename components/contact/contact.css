@@ -94,11 +94,11 @@
 
 @media only screen and (max-width: 600px) {
     .contact-header {
-        font-size: 7vw;
+        font-size: 9vw;
     }
 
     .contact-subheader {
-        font-size: 4vw;
+        font-size: 7vw;
     }
 
     #contact-box-phone {
@@ -106,7 +106,7 @@
     }
 
     #contact-phone, #contact-address {
-        font-size: 3.5vw;
+        font-size: 6vw;
     }
 
     #contact-map-box {
@@ -119,6 +119,9 @@
 
     #contact-info {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     #contact-box-social {
@@ -136,6 +139,6 @@
     #contact-face, #contact-gram {
         width: 50%;
         position: relative;
-        bottom: 70%;
+        bottom: 2vh;
     }
 }

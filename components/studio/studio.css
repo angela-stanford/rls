@@ -1,3 +1,7 @@
+#studio-container {
+    height: 80%;
+}
+
 .studio-button {
     display: block;
     margin: 5px auto 0 auto;
@@ -89,4 +93,41 @@
     height: 5%;
     width: 100%;
     background-color: maroon;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .studio-button {
+        font-size: 7vw;
+    }
+
+    #studio-rate-info {
+        width: 80%;
+    }
+
+    #studio-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: unset;
+    }
+
+    .studio-column {
+        width: 75%;
+        height: inherit;
+    }
+
+    .studio-pic {
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .studio-info {
+        font-size: 100%;
+        overflow: scroll;
+    }
+
+    .studio-dots {
+        display: none;
+    }
 }

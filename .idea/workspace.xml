@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437862ab-04b3-414c-bc67-4b7cca301bcf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/contact/contactTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact/contactTemplate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/studio/studio.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/studio/studio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/studio/studioTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/studio/studioTemplate.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,42 +18,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contactTemplate.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/contact/contactTemplate.html">
+      <file leaf-file-name="studio.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/studio/studio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="19" column="93" selection-start-line="19" selection-start-column="93" selection-end-line="19" selection-end-column="93" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="131">
+              <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/contact/contact.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+            <state relative-caret-position="80">
+              <caret line="94" column="4" selection-start-line="94" selection-end-line="95" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="studioTemplate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/studio/studioTemplate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="102">
+              <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,7 +111,6 @@
         <option value="$PROJECT_DIR$/photo-share.html" />
         <option value="$PROJECT_DIR$/components/home/homeController.js" />
         <option value="$PROJECT_DIR$/components/footer/footer.css" />
-        <option value="$PROJECT_DIR$/components/studio/studioTemplate.html" />
         <option value="$PROJECT_DIR$/components/home/home.css" />
         <option value="$PROJECT_DIR$/components/gallery/gallery.css" />
         <option value="$PROJECT_DIR$/components/home/homeTemplate.html" />
@@ -134,11 +121,12 @@
         <option value="$PROJECT_DIR$/components/gallery/galleryTemplate.html" />
         <option value="$PROJECT_DIR$/components/footer/footerTemplate.html" />
         <option value="$PROJECT_DIR$/mainController.js" />
-        <option value="$PROJECT_DIR$/components/studio/studio.css" />
         <option value="$PROJECT_DIR$/components/contact/contactTemplate.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/components/contact/contact.css" />
+        <option value="$PROJECT_DIR$/components/studio/studioTemplate.html" />
+        <option value="$PROJECT_DIR$/components/studio/studio.css" />
       </list>
     </option>
   </component>
@@ -195,7 +183,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="studio&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/studio/studio.css&#10;contact&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contactTemplate.html&#10;contac&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contact.css&#10;galler&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/gallery/galleryTemplate.html&#10;conta&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contact.css&#10;home&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/home/homeTemplate.html&#10;main&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/mainController.js&#10;idea&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/.idea&#10;gallery&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/gallery/gallery.css&#10;phot&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-photos/user-photosTemplate.html&#10;list&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-list/user-listController.js&#10;deta&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailController.js&#10;detail&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailTemplate.html&#10;userd&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailController.js&#10;photo&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-photos/user-photosController.js&#10;userlis&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-list/user-listController.js" />
+    <property name="SearchEverywhereHistoryKey" value="con&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contact.css&#10;stu&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/studio/studioTemplate.html&#10;stud&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/studio/studio.css&#10;studio&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/studio/studio.css&#10;contact&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contactTemplate.html&#10;contac&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contact.css&#10;galler&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/gallery/galleryTemplate.html&#10;conta&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contact.css&#10;home&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/home/homeTemplate.html&#10;main&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/mainController.js&#10;idea&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/.idea&#10;gallery&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/gallery/gallery.css&#10;phot&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-photos/user-photosTemplate.html&#10;list&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-list/user-listController.js&#10;deta&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailController.js&#10;detail&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailTemplate.html&#10;userd&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailController.js&#10;photo&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-photos/user-photosController.js&#10;userlis&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-list/user-listController.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../project6" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -257,12 +245,12 @@
       <workItem from="1533774617395" duration="408000" />
       <workItem from="1533785625497" duration="2010000" />
       <workItem from="1533795590743" duration="858000" />
-      <workItem from="1536687172194" duration="3710000" />
+      <workItem from="1536687172194" duration="6163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177578000" />
+    <option name="totallyTimeSpent" value="180031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,6 +263,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2472178" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32920355" />
@@ -429,13 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/studio/studioTemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/footer/footerTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -461,13 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/studio/studio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -522,8 +497,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/contact/contact.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+        <state relative-caret-position="80">
+          <caret line="94" column="4" selection-start-line="94" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/studio/studioTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/studio/studio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
         </state>
       </provider>
     </entry>
