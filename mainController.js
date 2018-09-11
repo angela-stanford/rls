@@ -32,6 +32,7 @@ cs142App.controller('MainController', ['$scope', '$routeParams',
     $scope.main.showBuy = $routeParams.showBuy;
     $scope.main.buy = function () {
         $scope.main.showBuy = !$scope.main.showBuy;
+        event.stopPropagation();
     };
         (function() {
 
