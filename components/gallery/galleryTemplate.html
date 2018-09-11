@@ -28,20 +28,51 @@
 <div id="gallery-grid" style="position: relative" ng-show="gallery.grid">
     <h2 id="gallery-grid-header">Gallery Grid View</h2>
     <img title="Gallery" ng-click="gallery.toggleGrid()" class="gallery-icon" ng-src="../../images/slide-icon.png"/>
-    <div class="gallery-row">
-        <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [1,2,3,4,5,6,7,8,9]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+    <div id="gallery-grid-wrapper-large">
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [1,2,3,4,5,6,7,8,9]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [10,11,12,13,14,15,16,17,18]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [19,20,21,22,23,24,25,26,27]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [28,29,30,31,32,33,34,35,36]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [37,38,39,40,41,42,43,44,45]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
     </div>
-    <div class="gallery-row">
-        <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [10,11,12,13,14,15,16,17,18]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
-    </div>
-    <div class="gallery-row">
-        <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [19,20,21,22,23,24,25,26,27]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
-    </div>
-    <div class="gallery-row">
-        <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [28,29,30,31,32,33,34,35,36]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
-    </div>
-    <div class="gallery-row">
-        <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [37,38,39,40,41,42,43,44,45]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+    <div id="gallery-grid-wrapper-small">
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [1,2,3,4,5]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [6,7,8,9,10]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [11,12,13,14,15]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [16,17,18,19,20]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [21,22,23,24,25]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [26,27,28,29,30]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [31,32,33,34,35]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [36,37,38,39,40]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
+        <div class="gallery-row">
+            <img ng-click="gallery.goToImage(i)" class="gallery-cell" ng-repeat="i in [41,42,43,44,45]" ng-src="../../images/gallery/rls{{i}}.jpg"/>
+        </div>
     </div>
 </div>
 

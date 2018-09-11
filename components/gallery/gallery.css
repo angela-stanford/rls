@@ -44,7 +44,8 @@
 }
 
 .gallery-main {
-    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .gallery-wrapper {
@@ -109,4 +110,39 @@
     font-family: 'PT Serif', serif;
     font-size: 2vw;
     margin: 5px 0;
+}
+
+#gallery-grid-wrapper-small {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #gallery-page {
+        height: 88%;
+    }
+
+    #gallery-grid-header {
+        font-size: 8vw;
+    }
+
+    .gallery-main {
+        width: 100%;
+        object-fit: contain;
+    }
+    .gallery-wrapper {
+        display: none;
+    }
+
+    .gallery-cell {
+        width: 20%;
+    }
+
+    #gallery-grid-wrapper-large {
+        display: none;
+    }
+
+    #gallery-grid-wrapper-small {
+        display: block;
+    }
 }

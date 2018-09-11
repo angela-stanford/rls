@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437862ab-04b3-414c-bc67-4b7cca301bcf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/components/studio/studio.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/studio/studio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/gallery/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/gallery/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/gallery/galleryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/gallery/galleryController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/gallery/galleryTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/gallery/galleryTemplate.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,41 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="studio.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/studio/studio.css">
+      <file leaf-file-name="galleryTemplate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/gallery/galleryTemplate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
+            <state relative-caret-position="607">
+              <caret line="73" column="100" selection-start-line="73" selection-start-column="100" selection-end-line="73" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/contact/contact.css">
+      <file leaf-file-name="galleryController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/gallery/galleryController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="-340">
+              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studioTemplate.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/studio/studioTemplate.html">
+      <file leaf-file-name="gallery.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/gallery/gallery.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+            <state relative-caret-position="318">
+              <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -95,6 +86,7 @@
       <find>scripts</find>
       <find>index</find>
       <find>main.buy</find>
+      <find>column</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,13 +112,10 @@
         <option value="$PROJECT_DIR$/components/home/homeController.js" />
         <option value="$PROJECT_DIR$/components/footer/footer.css" />
         <option value="$PROJECT_DIR$/components/home/home.css" />
-        <option value="$PROJECT_DIR$/components/gallery/gallery.css" />
         <option value="$PROJECT_DIR$/components/home/homeTemplate.html" />
-        <option value="$PROJECT_DIR$/components/gallery/galleryController.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webServer.js" />
-        <option value="$PROJECT_DIR$/components/gallery/galleryTemplate.html" />
         <option value="$PROJECT_DIR$/components/footer/footerTemplate.html" />
         <option value="$PROJECT_DIR$/components/contact/contactTemplate.html" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -135,6 +124,9 @@
         <option value="$PROJECT_DIR$/components/studio/studioTemplate.html" />
         <option value="$PROJECT_DIR$/mainController.js" />
         <option value="$PROJECT_DIR$/components/studio/studio.css" />
+        <option value="$PROJECT_DIR$/components/gallery/galleryController.js" />
+        <option value="$PROJECT_DIR$/components/gallery/galleryTemplate.html" />
+        <option value="$PROJECT_DIR$/components/gallery/gallery.css" />
       </list>
     </option>
   </component>
@@ -181,6 +173,12 @@
               <item name="rls" type="b2602c69:ProjectViewProjectNode" />
               <item name="rls" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="gallery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rls" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="studio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -191,7 +189,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="con&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contact.css&#10;stu&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/studio/studioTemplate.html&#10;stud&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/studio/studio.css&#10;studio&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/studio/studio.css&#10;contact&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contactTemplate.html&#10;contac&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contact.css&#10;galler&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/gallery/galleryTemplate.html&#10;conta&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contact.css&#10;home&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/home/homeTemplate.html&#10;main&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/mainController.js&#10;idea&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/.idea&#10;gallery&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/gallery/gallery.css&#10;phot&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-photos/user-photosTemplate.html&#10;list&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-list/user-listController.js&#10;deta&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailController.js&#10;detail&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailTemplate.html&#10;userd&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailController.js&#10;photo&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-photos/user-photosController.js&#10;userlis&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-list/user-listController.js" />
+    <property name="SearchEverywhereHistoryKey" value="gal&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/gallery/gallery.css&#10;con&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contact.css&#10;stu&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/studio/studioTemplate.html&#10;stud&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/studio/studio.css&#10;studio&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/studio/studio.css&#10;contact&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contactTemplate.html&#10;contac&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contact.css&#10;galler&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/gallery/galleryTemplate.html&#10;conta&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/contact/contact.css&#10;home&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/home/homeTemplate.html&#10;main&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/mainController.js&#10;idea&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/.idea&#10;gallery&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/rls/components/gallery/gallery.css&#10;phot&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-photos/user-photosTemplate.html&#10;list&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-list/user-listController.js&#10;deta&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailController.js&#10;detail&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailTemplate.html&#10;userd&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-detail/user-detailController.js&#10;photo&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-photos/user-photosController.js&#10;userlis&#9;FILE&#9;file://C:/Users/angel/WebstormProjects/project5/components/user-list/user-listController.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../project6" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -253,12 +251,12 @@
       <workItem from="1533774617395" duration="408000" />
       <workItem from="1533785625497" duration="2010000" />
       <workItem from="1533795590743" duration="858000" />
-      <workItem from="1536687172194" duration="9651000" />
+      <workItem from="1536687172194" duration="13416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183519000" />
+    <option name="totallyTimeSpent" value="187284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,7 +271,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2472178" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2472178" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32920355" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.28672567" />
@@ -281,7 +279,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32920355" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32920355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49920508" visible="true" weight="0.28672567" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49920508" visible="true" weight="0.28672567" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,20 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/gallery/galleryController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/gallery/gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/home/home.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -444,13 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6851">
           <caret line="403" column="9" selection-start-line="403" selection-start-column="9" selection-end-line="403" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/gallery/galleryTemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -522,8 +499,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/studio/studio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
+        <state relative-caret-position="170">
+          <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/gallery/galleryController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/gallery/galleryTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="73" column="100" selection-start-line="73" selection-start-column="100" selection-end-line="73" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/gallery/gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
         </state>
       </provider>
     </entry>
