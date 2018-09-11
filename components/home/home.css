@@ -85,3 +85,37 @@
     width: 90%;
     margin: auto;
 }
+
+@media only screen and (max-width: 600px) {
+    .button-holder {
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+
+    .scroll-button {
+        font-size: 4vw;
+        width: 60%;
+        height: 10%;
+    }
+
+    .feature-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-col {
+        width: 50%;
+    }
+
+    .feature-title {
+        font-size: 5vw;
+    }
+    .feature-description {
+        font-size: 4.5vw;
+    }
+}
