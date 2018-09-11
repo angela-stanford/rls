@@ -91,3 +91,51 @@
      width: 50%;
      display: flex;
  }
+
+@media only screen and (max-width: 600px) {
+    .contact-header {
+        font-size: 7vw;
+    }
+
+    .contact-subheader {
+        font-size: 4vw;
+    }
+
+    #contact-box-phone {
+        width: 60%;
+    }
+
+    #contact-phone, #contact-address {
+        font-size: 3.5vw;
+    }
+
+    #contact-map-box {
+        width: 85%;
+    }
+
+    #contact-image {
+        display: none;
+    }
+
+    #contact-info {
+        width: 100%;
+    }
+
+    #contact-box-social {
+        height: 15vh;
+    }
+
+    .contact-media-link {
+        position: relative;
+    }
+
+    .contact-media-text {
+        display: none;
+    }
+
+    #contact-face, #contact-gram {
+        width: 50%;
+        position: relative;
+        bottom: 70%;
+    }
+}
