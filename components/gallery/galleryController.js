@@ -13,6 +13,9 @@ cs142App.controller('GalleryController', ['$scope', '$routeParams',
         $scope.gallery.direction = 'down';
         $scope.gallery.forward = function (event) {
             event.stopPropagation();
+            if(event.handled !== true) {
+                event.handled = true;
+            }
             if($scope.gallery.curr === $scope.gallery.numImages) {
                 $scope.gallery.curr = 1;
                 $scope.gallery.left = 1;
