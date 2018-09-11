@@ -1,13 +1,13 @@
 <div id="gallery-page" ng-show="gallery.grid === false">
     <div id="gallery-container">
         <img ng-click="gallery.toggleGrid()" class="gallery-icon" src="../../images/grid-icon.png"/>
-        <button class="gallery-main-button" ng-click="gallery.back()">
+        <button class="gallery-main-button" ng-click="gallery.back($event)">
             <
         </button>
         <div id="gallery-main-container">
             <img class="gallery-main" src="../../images/gallery/rls{{gallery.curr}}.jpg"/>
         </div>
-        <button class="gallery-main-button" ng-click="gallery.forward()">
+        <button class="gallery-main-button" ng-click="gallery.forward($event)">
             >
         </button>
     </div>

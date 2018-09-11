@@ -11,7 +11,8 @@ cs142App.controller('GalleryController', ['$scope', '$routeParams',
         $scope.gallery.curr = Math.floor(Math.random() * 4 + 1);
         $scope.gallery.left = 1;
         $scope.gallery.direction = 'down';
-        $scope.gallery.forward = function () {
+        $scope.gallery.forward = function (event) {
+            event.stopPropagation();
             if($scope.gallery.curr === $scope.gallery.numImages) {
                 $scope.gallery.curr = 1;
                 $scope.gallery.left = 1;
@@ -24,7 +25,8 @@ cs142App.controller('GalleryController', ['$scope', '$routeParams',
 
         };
 
-        $scope.gallery.back = function () {
+        $scope.gallery.back = function (event) {
+            event.stopPropagation();
             if($scope.gallery.curr === 1) {
                 $scope.gallery.curr = $scope.gallery.numImages;
                 $scope.gallery.left = $scope.gallery.numImages - 4;
