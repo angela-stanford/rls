@@ -1,5 +1,5 @@
-<button class="studio-button" ng-click="main.buy()" ng-show="!main.showBuy">Book Studio Session</button>
-<button class="studio-button" ng-click="main.buy()" ng-show="main.showBuy">Close Booking</button>
+<button class="studio-button" ng-click="main.buy($event)" ng-show="!main.showBuy">Book Studio Session</button>
+<button class="studio-button" ng-click="main.buy($event)" ng-show="main.showBuy">Close Booking</button>
 <div id="studio-booking" ng-show="main.showBuy">
     <h2 class="studio-header">Rates</h2>
     <div id="studio-rate-info">
