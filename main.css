@@ -118,6 +118,7 @@ h1, h2, h3, h4 {
     }
 
     .main-menu-links {
+        width: fit-content;
         font-family: 'Bree Serif', serif;
         font-size: 4vw;
         color: silver;
