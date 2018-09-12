@@ -16,7 +16,7 @@ CSS for the CS142 project #5 main page
     z-index: 9999;
 }
 
-#main-small-title {
+#main-small-title, #main-side-open, .main-menu-links {
     display: none;
 }
 
@@ -71,6 +71,10 @@ h1, h2, h3, h4 {
 }
 
 @media only screen and (max-width: 600px) {
+    #main-side-open {
+        display: block;
+    }
+
     #main-small-title {
         display: block;
         font-family: 'Bree Serif', serif;

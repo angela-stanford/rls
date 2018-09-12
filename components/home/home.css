@@ -97,7 +97,7 @@
     }
 
     .scroll-button {
-        font-size: 4vw;
+        font-size: 3.5vw;
         width: 60%;
         height: 10%;
     }
@@ -109,7 +109,8 @@
     }
 
     .feature-col {
-        width: 50%;
+        width: 75%;
+        text-align: center;
     }
 
     .feature-title {
