@@ -62,12 +62,6 @@
     box-shadow: 4px 4px 3px 0 rgba(0,0,0,.12);
 }
 
-/*.studio-column:hover {*/
-    /*position: relative;*/
-    /*width: 50%;*/
-    /*height: 100%;*/
-/*}*/
-
 .studio-pic {
     width: 100%;
 }
@@ -93,6 +87,7 @@
     height: 5%;
     width: 100%;
     background-color: maroon;
+    overflow: scroll;
 }
 
 @media only screen and (max-width: 600px) {
@@ -115,7 +110,6 @@
     .studio-column {
         width: 85%;
         height: inherit;
-        overflow: scroll;
     }
 
     .studio-pic {
