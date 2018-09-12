@@ -84,6 +84,14 @@
             <a ng-href="#!/photography-studio?showBuy=true" id="booking-link">Book Studio Session</a>
             <a ng-href="#!/home" id="royal-lane">Royal Lane</a>
         </div>
+        <div id="main-dropdown">
+            <button id="main-dropbtn" ng-click="main.dropToggle($event); $event.stopImmediatePropagation()">Menu</button>
+            <div id="main-dropdown-content" ng-show="main.showDrop">
+                <a ng-href="#">Link 1</a>
+                <a ng-href="#">Link 2</a>
+                <a ng-href="#">Link 3</a>
+            </div>
+        </div>
     </div>
     <div ng-view style="height: 100%"></div>
     </body>
