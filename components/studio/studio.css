@@ -115,6 +115,7 @@
     .studio-column {
         width: 85%;
         height: inherit;
+        overflow: scroll;
     }
 
     .studio-pic {
