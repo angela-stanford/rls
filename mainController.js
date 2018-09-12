@@ -29,19 +29,18 @@ cs142App.config(['$routeProvider',
 cs142App.controller('MainController', ['$scope', '$routeParams',
     function ($scope, $routeParams) {
     $scope.main = {};
-    $scope.main.showDrop = false;
     $scope.main.showBuy = $routeParams.showBuy;
     $scope.main.buy = function () {
         $scope.main.showBuy = !$scope.main.showBuy;
     };
-        // $('#main-dropbtn').one('click', function (event) {
-        //     event.stopPropagation();
-        //     alert("yo");
-        // });
-    $scope.main.dropToggle = function (event) {
-        $scope.main.showDrop = !$scope.main.showDrop;
+    $scope.main.showNav = false;
+    $scope.main.openNav = function () {
+        $('.main-sidenav').animate({width: '30%'});
     };
 
+    $scope.main.closeNav = function () {
+        $('.main-sidenav').animate({width: '0'});
+    };
 
         (function() {
 

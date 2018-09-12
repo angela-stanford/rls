@@ -84,13 +84,15 @@
             <a ng-href="#!/photography-studio?showBuy=true" id="booking-link">Book Studio Session</a>
             <a ng-href="#!/home" id="royal-lane">Royal Lane</a>
         </div>
-        <div id="main-dropdown">
-            <button id="main-dropbtn" ng-click="main.dropToggle($event); $event.stopImmediatePropagation()">Menu</button>
-            <div id="main-dropdown-content" ng-show="main.showDrop">
-                <a ng-href="#">Link 1</a>
-                <a ng-href="#">Link 2</a>
-                <a ng-href="#">Link 3</a>
-            </div>
+        <h2 id="main-small-title">Royal Lane Studios</h2>
+        <span id="main-side-open" ng-click="main.openNav()">&#9776; Menu</span>
+        <div id="mySidenav" class="main-sidenav">
+            <a id="main-nav-close" class="main-menu-links" ng-click="main.closeNav()">&times;</a>
+            <a class="main-menu-links" ng-href="#!/home">Home</a>
+            <a class="main-menu-links" ng-href="#!/photography-studio">Photography Studio</a>
+            <a class="main-menu-links" ng-href="#!/gallery">Gallery</a>
+            <a class="main-menu-links" ng-href="#!/contact-us">Contact Us</a>
+            <a id="main-nav-booking" class="main-menu-links" ng-href="#!/photography-studio?showBuy=true">Book Studio Session</a>
         </div>
     </div>
     <div ng-view style="height: 100%"></div>

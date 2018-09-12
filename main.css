@@ -16,14 +16,13 @@ CSS for the CS142 project #5 main page
     z-index: 9999;
 }
 
-#main-dropdown {
+#main-small-title {
     display: none;
 }
 
 .nav-links {
     position: absolute;
     bottom: 0;
-    /*font-family: 'PT Serif', serif;*/
     font-family: 'Bree Serif', serif;
     font-size: 1.6vw;
     width: 100%;
@@ -72,20 +71,57 @@ h1, h2, h3, h4 {
 }
 
 @media only screen and (max-width: 600px) {
+    #main-small-title {
+        display: block;
+        font-family: 'Bree Serif', serif;
+        font-size: 6vw;
+        color: silver;
+        margin: auto;
+    }
+    #main-toolbar {
+        display: flex;
+        flex-direction: column;
+    }
     .nav-links {
         display: none;
     }
 
-    #main-dropdown {
-        display: block;
-        margin: auto;
+    #main-side-open {
+        font-family: 'Bree Serif', serif;
+        font-size: 5vw;
+        color: silver;
+        padding-left: 10px;
     }
 
-    #main-dropbtn {
-        border: none;
-        background-color: inherit;
+    .main-sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: black;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 10px;
+    }
+
+    #main-nav-close {
+        position: absolute;
+        right: 7%;
+        font-size: 8vw;
+        padding: 0;
+    }
+
+    .main-menu-links {
         font-family: 'Bree Serif', serif;
-        font-size: 9vw;
+        font-size: 4vw;
         color: silver;
+        display: block;
+        text-align: left;
+    }
+
+    #main-nav-booking {
+        color: maroon;
     }
 }
