@@ -79,6 +79,7 @@
     padding: 2%;
     color: silver;
     text-align: center;
+    overflow: scroll;
 }
 
 #studio-banner {
@@ -87,7 +88,6 @@
     height: 5%;
     width: 100%;
     background-color: maroon;
-    overflow: scroll;
 }
 
 @media only screen and (max-width: 600px) {
